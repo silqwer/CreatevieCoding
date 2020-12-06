@@ -17,6 +17,7 @@ class App {
     this.moveX = 0;
     this.offsetX = 0;
 
+    // 이벤트 이름, 이벤트, ? 
     window.addEventListener('pointerdown', this.onDown.bind(this), false);
     window.addEventListener('pointermove', this.onMove.bind(this), false);
     window.addEventListener('pointerup', this.onUp.bind(this), false);
